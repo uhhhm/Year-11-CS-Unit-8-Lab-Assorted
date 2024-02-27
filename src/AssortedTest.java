@@ -135,7 +135,7 @@ class AssortedTest {
 
         for (int i = 0; i < list.size(); i ++) {
 
-            if (i%2 == 0) {
+            if (list.get(i)%2 == 0) {
                 assertTrue(list.get(i) == listSortedOdd.get(i));
             }
         }
